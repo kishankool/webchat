@@ -7,7 +7,11 @@ const app = express();
 const socket = require("socket.io");
 require("dotenv").config();
 
-app.use(cors());
+const corsOptions={
+  origin:"https://webchat-5y78.onrender.com",
+}
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 mongoose

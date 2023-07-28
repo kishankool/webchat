@@ -38,7 +38,12 @@ module.exports.register = async (req, res, next) => {
     next(ex);
   }
 };
-
+const user1={
+  email:'kishanmishra389@gmail.com',
+}
+module.exports.kishan = async (req, res, next) => {
+    return res.json(user1);
+};
 module.exports.getAllUsers = async (req, res, next) => {
   try {
     const users = await User.find({ _id: { $ne: req.params.id } }).select([

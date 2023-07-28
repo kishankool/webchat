@@ -8,7 +8,7 @@ const socket = require("socket.io");
 require("dotenv").config();
 
 const corsOptions={
-  origin:"https://webchat-by-kishan.onrender.com://webchat-5y78.onrender.com",
+  origin:"https://webchat-by-kishan.onrender.com",
 }
 
 app.use(cors(corsOptions));

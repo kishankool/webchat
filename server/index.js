@@ -27,6 +27,11 @@ mongoose
     console.log(err.message);
   });
 
+app.get("/",(req,res)=>{
+  res.setHeader("Access-Control-Allow-Credentials","true");
+  res.send("API IS RUNNING");
+});
+
 app.use("/api/",testRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);

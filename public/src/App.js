@@ -8,7 +8,7 @@ export default function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://webchat-app-vzsd.onrender.com")
+    fetch("https://chatbackend-e3ia.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   },[]);

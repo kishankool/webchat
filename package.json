@@ -1,0 +1,16 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "Web chat app is created by Kishan using MERN Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm run start"
+  },
+  "author": "Kishan Mishra",
+  "license": "ISC"
+}

@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const authRoutes = require("./routes/auth");
+const testRoutes= require("./routes/test")
 const messageRoutes = require("./routes/messages");
 const app = express();
 const socket = require("socket.io");
@@ -26,6 +27,7 @@ mongoose
     console.log(err.message);
   });
 
+app.use("/api/",testRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 

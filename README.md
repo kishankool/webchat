@@ -1,2 +1,2 @@
 # webchat
-A Chatting Web created usting MERN tools and socket.io
+A Chatting Web App created usting MERN tools and socket.io

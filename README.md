@@ -10,7 +10,7 @@ Welcome to the WebChat project! This is a real-time chatting web application bui
 
 ## Deployment
 
-The ChatWebApp is hosted on Render. You can access the application by visiting [[https://your-app-name.onrender.com](https://your-app-name.onrender.com)](https://webchat-by-kishan.onrender.com/).
+The ChatWebApp is hosted on Render. You can access the application by visiting [(https://webchat-by-kishan.onrender.com/)].
 
 ## Features
 

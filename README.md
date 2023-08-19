@@ -38,12 +38,12 @@ If you want to set up the project locally for development purposes, follow these
 
 1. Clone the repository: `git clone https://github.com/kishankool/webchat.git`
 2. Install dependencies for both the client and server:
-   - For the client, navigate to the `client` directory and run `npm install`.
+   - For the client, navigate to the `public` directory and run `npm install`.
    - For the server, navigate to the `server` directory and run `npm install`.
 3. Set up environment variables:
    - In the `server` directory, create a `.env` file and set the required environment variables, such as your MongoDB connection string and other configuration settings.
 4. Run the development server:
-   - In the `client` directory, run `npm start` to start the React development server.
+   - In the `public` directory, run `npm start` to start the React development server.
    - In the `server` directory, run `npm start` to start the Node.js server.
 5. Access the application in your browser at `http://localhost:3000`.
 
